@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "noEmit": true, // Set to true if you do not want to emit files
-    "target": "es5", // Or "esnext"
-    "module": "esnext", // Specify module code generation
-    "jsx": "react-jsx", // For React 17+
-    "strict": true, // Enable all strict type-checking options
-    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
-    "skipLibCheck": true, // Skip type checking of declaration files
-    "forceConsistentCasingInFileNames": true // Disallow inconsistently-cased references to the same file
+    "target": "es6", // or "esnext"
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es6", "dom"], // Add this line
+    "noEmit": true // Keep this if you only want to check types
   },
-  "include": ["src/**/*"], // Adjust based on your project structure
-  "exclude": ["node_modules", "**/*.spec.ts"] // Exclude test files and node_modules
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
