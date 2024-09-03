@@ -3,7 +3,7 @@ import './navbar.css'
 import logo from '../../assets/logo.jpg'
 import menu_icon from '../../assets/menu-icon.jpeg'
 import { Link } from 'react-scroll'
-const navbar: React.FC = () => {
+const navbar = () => {
     const [sticky, setSticky] = useState(false);
     const [mobileMenu, setMobileMenu] = useState(false);
     useEffect(() => {

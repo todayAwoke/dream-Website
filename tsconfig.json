@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5", // Specify ECMAScript target version
+    "target": "es5", // Or "esnext"
     "module": "esnext", // Specify module code generation
-    "jsx": "react-jsx", // Use "react" for older versions
+    "jsx": "react-jsx", // For React 17+
     "strict": true, // Enable all strict type-checking options
     "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
     "skipLibCheck": true, // Skip type checking of declaration files
