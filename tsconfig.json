@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // Add this line
     "target": "es5", // Or "esnext"
     "module": "esnext", // Specify module code generation
     "jsx": "react-jsx", // For React 17+
